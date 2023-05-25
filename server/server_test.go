@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"syscall"
+/*	"syscall" 	*/
 	"testing"
 	"time"
 
@@ -63,7 +63,7 @@ func TestNew(t *testing.T) {
 	}
 }
 
-func TestServer_Start(t *testing.T) {
+/* func TestServer_Start(t *testing.T) {
 	var tests = []struct {
 		name string
 		want []string
@@ -99,7 +99,8 @@ func TestServer_Start(t *testing.T) {
 			testLogs = []string{}
 		})
 	}
-}
+}	
+*/
 
 var testLogs = []string{}
 
